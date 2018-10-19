@@ -5,7 +5,7 @@ import smtplib
 server = smtplib.SMTP('smtp-mail.outlook.com',587)
 server.starttls() #protection needed to protect your password
 #Next, log in to the server
-server.login("ruthdecoster@msn.com", "sebastien1")
+server.login("ruthdecoster@msn.com", "*******")
 
 #Send the mail
 msg = """Testje van mezelf!\n
