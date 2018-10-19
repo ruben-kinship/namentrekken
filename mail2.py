@@ -15,7 +15,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 server = smtplib.SMTP('smtp-mail.outlook.com', 587)
 server.starttls()
-server.login(fromaddr, "sebastien1")
+server.login(fromaddr, "********")
 text = msg.as_string()
 server.sendmail(fromaddr, toaddr, text)
 server.quit()
